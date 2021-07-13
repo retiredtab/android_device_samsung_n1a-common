@@ -30,6 +30,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # A list of dpis to select prebuilt apk, in precedence order.
 PRODUCT_AAPT_PREBUILT_DPI := hdpi mdpi
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # AdvancedDisplay (MDNIE)
 PRODUCT_PACKAGES += \
     AdvancedDisplay
