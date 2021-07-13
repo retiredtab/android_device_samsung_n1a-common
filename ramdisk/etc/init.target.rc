@@ -1,3 +1,5 @@
+import /vendor/etc/init/hw/init.baseband.rc
+
 on boot
     # Bluetooth Audio (AVRCP)
     chown system system /sys/class/input/input12/enabled
