@@ -22,3 +22,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
+
+# Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    audio.offload.disable=1 \
+    audio_hal.disable_two_mic=true
