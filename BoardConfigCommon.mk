@@ -33,7 +33,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Shims
 TARGET_LD_SHIM_LIBS += \
-    /vendor/bin/gpsd|/vendor/lib/libshim_dmitry_gps.so
+    /vendor/bin/gpsd|/vendor/lib/libshim_gpsd.so
 
 # Inherit from the proprietary version
 -include vendor/samsung/n1a-common/BoardConfigVendor.mk
