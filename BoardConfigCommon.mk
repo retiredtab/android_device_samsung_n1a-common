@@ -29,7 +29,12 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_SCREEN_DENSITY := 320
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+# DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
+# device/samsung/n1a-common/manifests/device_framework_matrix.xml \
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+        vendor/lineage/config/device_framework_matrix.xml
 
 # Shims
 TARGET_LD_SHIM_LIBS += \
